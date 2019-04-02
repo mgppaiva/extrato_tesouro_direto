@@ -23,16 +23,18 @@ This is a script that runs under Selenium that pulls data from you Tesouro Diret
 > wget -qO- https://github.com/mozilla/geckodriver/releases/download/v0.17.0/geckodriver-v0.17.0-linux64.tar.gz | tar xvz -C /usr/bin
 
 8. Test Selenium
-> python
-* from pyvirtualdisplay import Display
-* from selenium import webdriver
-* display = Display(visible=0, size=(1024, 768))
-* display.start()
-* driver = webdriver.Firefox()
-* driver.get("https://www.google.com")
-* print driver.find_element_by_tag_name("body") != None
-* display.stop()
-* driver.quit()
+```
+# python
+>> from pyvirtualdisplay import Display
+>> from selenium import webdriver
+>> display = Display(visible=0, size=(1024, 768))
+>> display.start()
+>> driver = webdriver.Firefox()
+>> driver.get("https://www.google.com")
+>> print driver.find_element_by_tag_name("body") != None
+>> display.stop()
+>> driver.quit()
+```
 
 9. Edit your "script_tesouro_direto_v0.py" with your **credentials**, **title_type** and **email_option**;
 
