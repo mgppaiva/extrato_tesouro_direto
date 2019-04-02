@@ -36,7 +36,7 @@ This is a script that runs under Selenium that pulls data from you Tesouro Diret
 >> driver.quit()
 ```
 
-9. Edit your "script_tesouro_direto_v0.py" with your **cpf**, **password**, **titulos**, **send_email** option and **email_destino**;
+9. Edit your "script_tesouro_direto_v0.py" and fill **DADOS PARA ACESSO**
 
 10. Run "python script_tesouro_direto_v0.py"
 
