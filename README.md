@@ -34,11 +34,11 @@ This is a script that runs under Selenium that pulls data from you Tesouro Diret
 * display.stop()
 * driver.quit()
 
-9. Edit your "script_tesouro_direto_v0.py" with your credentials, title_type and email_option;
+9. Edit your "script_tesouro_direto_v0.py" with your **credentials**, **title_type** and **email_option**;
 
 10. Run "python script_tesouro_direto_v0.py"
 
-11. If necessary, add it in your crontab;
-example>>> 0 17 * * FRI /usr/bin/python /<path_to_script>/script_tesouro_direto_v0.py >> /dev/null
+11. If necessary, add it in your crontab:
+> 0 17 * * FRI /usr/bin/python /<path_to_script>/script_tesouro_direto_v0.py >> /dev/null
 
 12. Enjoy !!
